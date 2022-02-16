@@ -92,13 +92,10 @@ public class sonucController {
 			eld = 0;
 		}
 		m.addAttribute("carpim",toplaa);
+		m.addAttribute("sayi1",Num_1.length());
+		m.addAttribute("sayi2",Num_2.length());
+		m.addAttribute("basamak",toplaa.length());
 		
-		//System.out.println("Birinci sayi basamak sayisi..:" + Num_1.length());
-		//System.out.println("Ikinci sayi basamak sayisi...:" + Num_2.length());
-		//System.out.println("Sonuc basamak sayisi.........:" + toplaa.length());
-
-		
-		//int carpim=s1*s2;
 		
 		return "index";
 		

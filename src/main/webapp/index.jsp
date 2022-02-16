@@ -7,28 +7,48 @@
 <title>Insert title here</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body >
+
+
+<nav class="navbar navbar-Dark bg-Dark">
+<div class="container-fluid">
+ <div class="container">
+    <div class="navbar-text d-flex justify-content-center bg-primary text-white fs-4">
+     COK HANELI SAYILARI CARPMA
+    </div>
+  </div>
+  
+</div>
+ </nav>
 
 <form action="submit">
 <div class="container">
+
 <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Sayi1</label>
-    <input type="text" name="S1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+     <input type="text" name="S1" class="form-control" 
+     placeholder="1. Sayiyi Giriniz" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Sayi2</label>
-    <input type="text" name="S2" class="form-control" id="exampleInputPassword1">
+    <input type="text" name="S2" class="form-control" 
+    id="exampleInputPassword1" placeholder="2. Sayiyi Giriniz">
   </div>
-  <button type="submit" class="btn btn-primary">sonuc</button>
+  <div class="d-grid gap-2">
+ <button type="submit" class="btn btn-primary">CARP</button>
+</div>
+  
   
 </div>
   
 </form>
 <div class="container">
-<label for="area">Sonuc:</label>
-<textarea id="w3review" name="area" rows="18" cols="150">
+
+<textarea id="w3review" name="area" rows="12" cols="150">
 ${carpim}
 </textarea>
+<label class="text-danger fs-4">1. Sayinin Uzunlugu.:${sayi1}</label><br/>
+<label class="text-danger fs-4">2. Sayinin Uzunlugu.:${sayi2}</label><br/>
+<label class="text-danger fs-4">Sonucun Uzunlugu....:${basamak}</label>
+
 </div>
 
 
