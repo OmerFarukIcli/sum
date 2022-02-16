@@ -13,11 +13,11 @@
 <div class="container">
 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Sayi1</label>
-    <input type="number" name="S1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" name="S1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Sayi2</label>
-    <input type="number" name="S2" class="form-control" id="exampleInputPassword1">
+    <input type="text" name="S2" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-primary">sonuc</button>
   
