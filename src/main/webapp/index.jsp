@@ -20,7 +20,7 @@
     <input type="number" name="S2" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-primary">sonuc</button>
-  <button type="button" onclick={"/"}>Temizle</button>
+  
 </div>
   
 </form>
